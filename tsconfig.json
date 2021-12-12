@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "outDir": "./build",
+    "skipLibCheck": true,
+    "strict": true,
+    "baseUrl": "src"
+  },
+  "include": ["src"]
+}
