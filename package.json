@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node --unhandled-rejections=strict ./build/server/server.js",
     "dev": "nodemon src/server/server.ts",
-    "build": "rm -rf build/ && tsc"
+    "build": "tsc"
   },
   "dependencies": {
     "@types/axios": "^0.14.0",
